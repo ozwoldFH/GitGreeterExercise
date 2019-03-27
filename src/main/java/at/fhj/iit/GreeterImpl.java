@@ -15,6 +15,6 @@ public class GreeterImpl implements Greeter {
 
     @Override
     public void sayGoodbye() {
-
+        System.out.println(String.format("Good Bye, %s!", name));
     }
 }
