@@ -10,7 +10,7 @@ public class GreeterImpl implements Greeter {
 
     @Override
     public void sayHello() {
-
+        System.out.println("Hello, Clemens Ott");
     }
 
     @Override
