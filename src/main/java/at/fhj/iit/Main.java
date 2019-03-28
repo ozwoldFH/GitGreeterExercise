@@ -6,6 +6,8 @@ public class Main {
 		
 		Greeter g = new GreeterImpl("George Oswald");
 
+		g.sayHello();
+		g.sayGoodbye();
 	}
 
 }
